@@ -1,0 +1,44 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+html{
+    font: 16px/1.5 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+body, button, input{
+    font: inherit;
+}
+.button{
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 2em;
+    margin: 0;
+   padding: 0.5em 0.9em;
+   background-color: rgb(251, 251, 251);
+   color: black;
+
+    
+}
+
+
+.button.fill{
+    background: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+}
+
+.button.hover,
+.button:hover{
+    background-color: green;
+    border-color: green; 
+    color:  rgb(251, 251, 251);
+   
+}
+
+.fa{
+    margin-right: 0.5em;
+}
+
+
+
+    
